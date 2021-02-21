@@ -1,9 +1,10 @@
 {
-  "name": "GIFEC-EMAIL-SERVER",
+  "name": "gifec-email-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": { "start": "node server.js",
+  "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,6 +18,7 @@
     "node-cron": "^2.0.3",
     "node-schedule": "^2.0.0",
     "nodejs-nodemailer-outlook": "^1.2.3",
-    "nodemailer": "^6.4.18"
+    "nodemailer": "^6.4.18",
+    "opencollective-postinstall": "^2.0.3"
   }
 }
